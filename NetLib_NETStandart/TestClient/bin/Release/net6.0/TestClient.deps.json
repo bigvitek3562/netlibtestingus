@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestClient/1.0.0": {
+        "dependencies": {
+          "NetLib_NETStandart": "1.0.0",
+          "TestCommons": "1.0.0"
+        },
+        "runtime": {
+          "TestClient.dll": {}
+        }
+      },
+      "NetLib_NETStandart/1.0.0": {
+        "runtime": {
+          "NetLib_NETStandart.dll": {}
+        }
+      },
+      "TestCommons/1.0.0": {
+        "dependencies": {
+          "NetLib_NETStandart": "1.0.0"
+        },
+        "runtime": {
+          "TestCommons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetLib_NETStandart/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestCommons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
